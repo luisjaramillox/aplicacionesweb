@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Espía</title>
+</head>
+<body>
+    <h1>Buscador</h1>
+    
+    <form action="https://httpbin.org/get" method="get">
+        <input type="text" name="q" placeholder="Escribe tu búsqueda">
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>
+
+<!--Esta es la URL que me da:-->
+<!--https://httpbin.org/get?q=cami\u00f3n+de+bomberos-->
+
+<!--Los espacios y las tildes se representan de otra manera,
+por ejemplo los + son los espacios y u00f3n representa la tilde en la ó.-->
+
+<!--1. Primero el protocolo y la url de httpbin.
+2. Luego hace un get para mostrar los datos de la busqueda.
+3. El ? indica el comienzo de los parámetros de la URL.
+4. La q es el nombre del campo del formulario.
+5. Y el = separa el nombre del parámetro de su valor.
+-->

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscripción al torneo de eSports</title>
+</head>
+<body>
+
+    <h1>Inscripción al torneo de eSports</h1>
+
+    <form>
+
+        <h2>Datos personales</h2>
+
+        <label for="nombre">Nombre y apellidos:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br><br>
+
+        <label for="curso">Curso:</label>
+        <select id="curso" name="curso">
+            <option value="">-- Elige tu curso --</option>
+            <option value="1SMR">1º SMR</option>
+            <option value="2SMR">2º SMR</option>
+            <option value="1DAW">1º DAW</option>
+        </select>
+
+        <h2>Juego</h2>
+
+        <input type="radio" id="rocket" name="juego" value="Rocket League">
+        <label for="rocket">Rocket League</label>
+        <br>
+
+        <input type="radio" id="futbol" name="juego" value="Fútbol">
+        <label for="futbol">Fútbol</label>
+        <br>
+
+        <input type="radio" id="carreras" name="juego" value="Carreras">
+        <label for="carreras">Carreras</label>
+
+        <h2>Equipo</h2>
+
+        <label for="equipo">Nombre del equipo:</label>
+        <input type="text" id="equipo" name="equipo">
+        <br><br>
+
+        <label for="jugadores">Número de jugadores:</label>
+        <input type="number" id="jugadores" name="jugadores" min="1">
+        <br><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="normas" name="normas" required>
+        <label for="normas">He leído y acepto las normas del torneo</label>
+        <br><br>
+
+        <button type="submit">Inscribirme</button>
+
+    </form>
+
+</body>
+</html>
+
+<!--
+Si borro los required me deja, son necesarios en cosas esenciales,
+si lo borras en las herramientas deja hacerlo,
+la conclusión es que no solo debes hacerlo en la pagina web.
+-->

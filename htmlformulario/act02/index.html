@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Espía</title>
+</head>
+<body>
+    <h1>Buscador</h1>
+    
+    <form action="https://httpbin.org/post" method="post">
+        <input type="text" name="q" placeholder="Escribe tu búsqueda">
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>
+
+<!--https://httpbin.org/post-->
+
+<!--Ahora no aparece el nombre de la búsqueda en la url.
+La tilde sigue igual pero el espacio ahora es un espacio tal cual.
+Un login no debe usar GET porque muestra donde va el envío de ese login.
+-->

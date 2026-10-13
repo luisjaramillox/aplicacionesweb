@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería multimedia</title>
+</head>
+<body>
+  <header>
+    <h1>Galería multimedia</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Audio</h2>
+      <audio src="audio/intro.mp3" controls>
+        Tu navegador no puede reproducir este audio.
+      </audio>
+    </section>
+
+    <section>
+      <h2>Vídeo propio</h2>
+      <video controls width="640" poster="img/pocoyo.webp">
+        <source src="video/aa1.mp4" type="video/mp4">
+        <source src="video/aa2.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este vídeo.
+      </video>
+    </section>
+
+    <section>
+      <h2>Vídeo de YouTube</h2>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/r-URZN2v1AY?si=vXIi2_jGD1wEQNxY"
+        title="Vídeo: Pocoyo"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Imagen con pie</h2>
+      <figure>
+        <img src="img/gameboy.svg" alt="Game Boy gris con la pantalla verde y los botones a la derecha" width="320" height="220">
+        <figcaption>Figura 1. Game Boy original de 1989.</figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+1. provincias= select
+2. tallas= radio
+3. idiomas= checkbox
+4. fecha= date
+5. aceptar= checkbox
+6. nivel= range
+7. comentario= textarea
+8. color favorito= color

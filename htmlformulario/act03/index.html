@@ -1,0 +1,31 @@
+<!--
+<form action="https://httpbin.org/get">
+    <label for="usuario">Usuario</label>
+    <input type="text" id="Usuario">
+    <input type="text" name="clave" placeholder="Contraseña">
+    <p>Sexo</p>
+    <input type="radio" name="opcion1" value="h"> Hombre
+    <input type="radio" name="opcion2" value="m"> Mujer
+    </form>
+    <button type="submit">Entrar</button>
+-->
+
+<form action="https://httpbin.org/post" method="post">
+    <label for="usuario">Usuario</label>
+    <input type="text" id="Usuario" placeholder="Usuario">
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" placeholder="Contraseña">
+    <p>Sexo</p>
+    <input type="radio" name="opcion1" value="h"> Hombre
+    <input type="radio" name="opcion2" value="m"> Mujer
+    <button type="submit">Entrar</button>
+</form>
+
+<!--
+1. El button debe de estar dentro del form.
+2. El </form> debe estar sin tabulador.
+3. La contraseña debería de ser type=password para que se oculte.
+4. El Usuario no tiene placeholder.
+5. El usuario tiene label mientras que la contraseña no tiene label.
+6. La contraseña no tiene id de hecho tiene un name por la cara.
+-->
