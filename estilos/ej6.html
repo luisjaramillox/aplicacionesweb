@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 6</title>
+  <style>
+    div { padding: 10px; border: 1px solid gray; }
+
+    /* blanco */
+    .b1 { background-color: white; }
+    .b2 { background-color: #ffffff; }
+    .b3 { background-color: rgb(255, 255, 255); }
+    .b4 { background-color: hsl(0, 0%, 100%); }
+
+    /* negro */
+    .n1 { background-color: black; color: white; }
+    .n2 { background-color: #000000; color: white; }
+    .n3 { background-color: rgb(0, 0, 0); color: white; }
+    .n4 { background-color: hsl(0, 0%, 0%); color: white; }
+
+    /* amarillo */
+    .a1 { background-color: yellow; }
+    .a2 { background-color: #ffff00; }
+    .a3 { background-color: rgb(255, 255, 0); }
+    .a4 { background-color: hsl(60, 100%, 50%); }
+
+    /* gris */
+    .g1 { background-color: gray; color: white; }
+    .g2 { background-color: #808080; color: white; }
+    .g3 { background-color: rgb(128, 128, 128); color: white; }
+    .g4 { background-color: hsl(0, 0%, 50%); color: white; }
+
+    /* tarjeta transparente */
+    .fondo {
+      background-image: repeating-linear-gradient(45deg, red 0px, red 20px, blue 20px, blue 40px);
+      padding: 40px;
+    }
+    .tarjeta {
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <h1>Colores</h1>
+  <div class="b1">white</div>
+  <div class="b2">#ffffff</div>
+  <div class="b3">rgb(255, 255, 255)</div>
+  <div class="b4">hsl(0, 0%, 100%)</div>
+
+  <div class="n1">black</div>
+  <div class="n2">#000000</div>
+  <div class="n3">rgb(0, 0, 0)</div>
+  <div class="n4">hsl(0, 0%, 0%)</div>
+
+  <div class="a1">yellow</div>
+  <div class="a2">#ffff00</div>
+  <div class="a3">rgb(255, 255, 0)</div>
+  <div class="a4">hsl(60, 100%, 50%)</div>
+
+  <div class="g1">gray</div>
+  <div class="g2">#808080</div>
+  <div class="g3">rgb(128, 128, 128)</div>
+  <div class="g4">hsl(0, 0%, 50%)</div>
+
+  <h2>rgba</h2>
+  <div class="fondo">
+    <div class="tarjeta">Tarjeta con fondo blanco al 70%</div>
+  </div>
+</body>
+</html>

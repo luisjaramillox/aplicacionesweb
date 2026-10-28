@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 3</title>
+  <style>
+    /* 1. solo Inicio */
+    nav a.activo { outline: 2px solid red; }
+
+    /* 2. enlaces del menu */
+    nav a { outline: 2px solid blue; }
+
+    /* 3. el precio */
+    .precio { outline: 2px solid green; }
+
+    /* 4. enlace que abre pestaña nueva */
+    a[target="_blank"] { outline: 2px solid orange; }
+
+    /* 5. producto y destacado a la vez */
+    .producto.destacado { outline: 2px solid purple; }
+
+    /* 6. el h1 sin el id */
+    header > h1 { outline: 2px solid crimson; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Tienda Informática</h1>
+    <nav>
+      <a href="index.html" class="activo">Inicio</a>
+      <a href="productos.html">Productos</a>
+    </nav>
+  </header>
+  <main>
+    <article class="producto destacado">
+      <h2>Portátil 15"</h2>
+      <p>Procesador de 8 núcleos y <span class="precio">699 €</span></p>
+      <a href="https://fabricante.com" target="_blank">Web del fabricante</a>
+    </article>
+  </main>
+</body>
+</html>

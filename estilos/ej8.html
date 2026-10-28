@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 8</title>
+  <style>
+    .con-em li { font-size: 1.25em; }   /* va creciendo */
+    .con-rem li { font-size: 1.25rem; } /* siempre igual */
+    .fijo { font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h2>em</h2>
+  <ul class="con-em">
+    <li>Nivel 1
+      <ul>
+        <li>Nivel 2
+          <ul><li>Nivel 3</li></ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>rem</h2>
+  <ul class="con-rem">
+    <li>Nivel 1
+      <ul>
+        <li>Nivel 2
+          <ul><li>Nivel 3</li></ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <p class="fijo">Este texto está en px y no cambia.</p>
+</body>
+</html>
